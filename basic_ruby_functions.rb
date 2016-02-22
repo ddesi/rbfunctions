@@ -3,12 +3,12 @@
 
 # Create a function that takes a string and adds the phrase "Only in America!" to the end of it
 def onlyin(string)
-	"#{string}" + " only in America!"
+	"#{string} only in America!"
 end
 
 string = "this happens"
 
-onlyin(string)
+puts onlyin(string)
 
 
 # ---------------------------------------------------------------------------------------------------------------------------
