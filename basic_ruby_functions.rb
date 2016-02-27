@@ -62,17 +62,17 @@ puts combine(keys, values)
 # Print "FizzBuzz" for numbers that are multiples of both 3 and 5
 
 def fb
-	for i in 1..100
-		if i % 3 == 0
-			puts "Fizz"
-		elsif i % 5 == 0
-			puts "Buzz"
-		elsif i % 5 == 0 && i % 3 == 0
-			puts "FizzBuzz"
-		else 
-			puts "#{i}"
-		end
-	end
+    for i in 1..100
+        if i % 3 == 0 && i % 5== 0
+            puts "Fizzbuzz"
+        elsif i % 3 == 0
+            puts "Fizz"
+        elsif i % 5 == 0 
+            puts "Buzz"
+        else 
+            puts i
+        end
+    end
 end
 
 fb
